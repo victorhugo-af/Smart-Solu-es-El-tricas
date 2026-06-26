@@ -30,13 +30,20 @@ export default function Hero() {
                 <Clock className="w-3.5 h-3.5 animate-pulse-slow" />
                 Aberto 24 Horas
               </span>
-              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold bg-slate-900 border border-slate-800 text-slate-100">
+              <a
+                href={CONTACT_DATA.googleReviewsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                referrerPolicy="no-referrer"
+                title="Ver nossas avaliações no Google"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold bg-slate-900 border border-slate-800 text-slate-100 hover:border-brand-yellow/50 transition-colors"
+              >
                 <div className="flex items-center text-brand-yellow">
                   <Star className="w-3.5 h-3.5 fill-brand-yellow" />
                   <span className="font-extrabold ml-1">5.0</span>
                 </div>
                 <span className="text-slate-400">Araraquara & Região</span>
-              </span>
+              </a>
             </div>
 
             {/* Main Title (H1) */}
@@ -82,19 +89,26 @@ export default function Hero() {
                 <div className="w-9 h-9 rounded-full bg-slate-600 border-2 border-slate-950 flex items-center justify-center font-bold text-xs text-brand-yellow">T</div>
                 <div className="w-9 h-9 rounded-full bg-slate-500 border-2 border-slate-950 flex items-center justify-center font-bold text-xs text-slate-100">S</div>
               </div>
-              <div>
+              <a
+                href={CONTACT_DATA.googleReviewsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                referrerPolicy="no-referrer"
+                title="Ver nossas avaliações no Google"
+                className="group/rating"
+              >
                 <div className="flex items-center gap-1">
                   <div className="flex text-brand-yellow">
                     {[...Array(5)].map((_, i) => (
                       <Star key={i} className="w-4 h-4 fill-brand-yellow" />
                     ))}
                   </div>
-                  <span className="font-bold text-white text-sm">5.0 / 5.0</span>
+                  <span className="font-bold text-white text-sm group-hover/rating:text-brand-yellow transition-colors">5.0 / 5.0</span>
                 </div>
                 <p className="text-xs text-slate-400">
                   Mais de <span className="text-brand-yellow font-semibold">332 clientes avaliados</span> no Google Maps.
                 </p>
-              </div>
+              </a>
             </div>
 
           </div>

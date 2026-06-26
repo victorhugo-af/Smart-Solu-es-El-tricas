@@ -39,5 +39,6 @@ export interface ContactInfo {
   email: string;
   address: string;
   addressMapUrl: string;
+  googleReviewsUrl: string;
   hours: string;
 }

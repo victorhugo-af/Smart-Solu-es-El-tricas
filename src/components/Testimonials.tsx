@@ -99,7 +99,17 @@ export default function Testimonials() {
         <div className="mt-16 text-center space-y-4">
           <p className="text-xs text-slate-400">
             Temos orgulho de manter uma pontuação média de{' '}
-            <span className="text-brand-yellow font-bold text-sm">5.0 / 5.0 estrelas</span> no Google Maps.
+            <a
+              href={CONTACT_DATA.googleReviewsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              referrerPolicy="no-referrer"
+              title="Ver nossas avaliações no Google"
+              className="text-brand-yellow font-bold text-sm hover:underline"
+            >
+              5.0 / 5.0 estrelas
+            </a>{' '}
+            no Google Maps.
           </p>
           <div className="inline-flex flex-wrap justify-center gap-3">
             <a

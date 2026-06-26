@@ -12,6 +12,7 @@ export const CONTACT_DATA: ContactInfo = {
   email: 'ediinhoferreira@gmail.com',
   address: 'Rua Lázaro Camargo Enkhe 226 - Jardim Pinheiros, Araraquara - SP, 14811-423',
   addressMapUrl: 'https://www.google.com/maps/search/?api=1&query=Rua+L%C3%A1zaro+Camargo+Enkhe+226+-+Jardim+Pinheiros,+Araraquara+-+SP,+14811-423',
+  googleReviewsUrl: 'https://www.google.com/maps/place/Smart+Solu%C3%A7%C3%B5es+El%C3%A9tricas/@-21.7695186,-48.137914,15z/data=!4m15!1m8!3m7!1s0x94b8f171a734a9cd:0x17006118b43ae565!2zU21hcnQgU29sdcOnw7VlcyBFbMOpdHJpY2Fz!8m2!3d-21.7695303!4d-48.1378087!10e5!16s%2Fg%2F11gm86_ygc!3m5!1s0x94b8f171a734a9cd:0x17006118b43ae565!8m2!3d-21.7695303!4d-48.1378087!16s%2Fg%2F11gm86_ygc?entry=ttu',
   hours: 'Atendimento Emergencial 24 Horas / Todos os dias'
 };
 
